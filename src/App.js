@@ -128,7 +128,7 @@ function App() {
           />
         ) : (
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/netflix-clone">
               <Homepage
                 gettingMoviedata={gettingMoviedata}
                 handleMoviePlay={handleMoviePlay}
